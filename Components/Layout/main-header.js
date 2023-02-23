@@ -204,7 +204,7 @@ const Header = () => {
                 <Grid gap={4} columns={[2, "1fr 2fr"]}>
                   <Box>
                     <a
-                      href="https://getliner.com/user-profile/2014735"
+                      href="https://getliner.com/en/user-profile/2014735"
                       style={{ width: "100%", display: "block" }}
                       target="_blank"
                     >
