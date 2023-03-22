@@ -380,7 +380,9 @@ const DocumentView = () => {
                     <p style={{ wordBreak: "break-word" }}>
                       Drag `&apos;`n`&apos;` drop some files here, or click to
                       select files
-                      {errMessage && <p sx={{ color: "red" }}> {errMessage}</p>}
+                      {errMessage && (
+                        <p style={{ color: "red" }}> {errMessage}</p>
+                      )}
                     </p>
                     <p style={{ wordBreak: "break-word" }}>
                       .xlsx,.xlsm ,.xlsb ,.xls ,.xlw ,.xlr ,.csv ,.json ,.doc
@@ -513,7 +515,13 @@ const DocumentView = () => {
         <Card>
           <details id="DetailTable" open={TableDetail}>
             <summary>Table Preview</summary>
-            <table className="userTable" rules="all">
+            <table
+              className="userTable"
+              style={{
+                borderCollapse: "collapse",
+                border: "1px solid black",
+              }}
+            >
               <thead>
                 <tr>
                   {filterdList.length > 0 ? (

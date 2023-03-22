@@ -41,7 +41,7 @@ function Home({ StartScrollSpeed, EndScrollSpeed }) {
 
       <Container>
         <Box>
-          <h1 sx={{ marginBottom: "3rem" }}>FrontEnd Web Developer</h1>
+          <h1 style={{ marginBottom: "3rem" }}>FrontEnd Web Developer</h1>
 
           <ol>
             <li>CryptoCurrency 100 first list and updates</li>
@@ -118,7 +118,7 @@ function Home({ StartScrollSpeed, EndScrollSpeed }) {
               whiteSpace: "nowrap",
             }}
           >
-            <div
+            <Box
               sx={{
                 display: ["none", "none", "none", "inline-block"],
                 background: "secondary",
@@ -140,7 +140,7 @@ function Home({ StartScrollSpeed, EndScrollSpeed }) {
               <h3 className="h3title90deg"> Libraries & Frameworks</h3>
               <br />
               <ol
-                sx={{
+                style={{
                   fontSize: "0.8rem",
                 }}
               >
@@ -174,8 +174,8 @@ function Home({ StartScrollSpeed, EndScrollSpeed }) {
                 <li> save rss-parser</li>
                 <li> react-highlight-within-textarea</li>
               </ol>
-            </div>
-            <div
+            </Box>
+            <Box
               sx={{
                 width: ["50vh", "100%"],
                 maxWidth: "50vh",
@@ -203,7 +203,7 @@ function Home({ StartScrollSpeed, EndScrollSpeed }) {
                 ticks="red"
                 ShowLegend={false}
               />
-            </div>
+            </Box>
           </Grid>
         </Box>
 

@@ -404,7 +404,7 @@ function Compare() {
               </>
             </select>
 
-            <div className="toptablestatus" gap={2}>
+            <div className="toptablestatus">
               <Image
                 src="https://alternative.me/crypto/fear-and-greed-index.png"
                 alt="Latest Crypto Fear & Greed Index"
@@ -457,13 +457,13 @@ function Compare() {
             <Box>
               <div
                 className="emptybigcontainer"
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{
-                  delay: 1,
-                  duration: 1,
-                }}
+                // initial={{ opacity: 0 }}
+                // whileInView={{ opacity: 1 }}
+                // viewport={{ once: true }}
+                // transition={{
+                //   delay: 1,
+                //   duration: 1,
+                // }}
               >
                 <Firstcoinimage />
                 Market Cap : $&nbsp;
@@ -483,13 +483,13 @@ function Compare() {
 
               <div
                 className="emptybigcontainer"
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{
-                  delay: 3,
-                  duration: 1,
-                }}
+                // initial={{ opacity: 0 }}
+                // whileInView={{ opacity: 1 }}
+                // viewport={{ once: true }}
+                // transition={{
+                //   delay: 3,
+                //   duration: 1,
+                // }}
               >
                 <Secondcoinimage />
                 Market Cap : $&nbsp;
@@ -509,13 +509,13 @@ function Compare() {
 
               <div
                 className="emptybigcontainer"
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{
-                  delay: 5,
-                  duration: 1,
-                }}
+                // initial={{ opacity: 0 }}
+                // whileInView={{ opacity: 1 }}
+                // viewport={{ once: true }}
+                // transition={{
+                //   delay: 5,
+                //   duration: 1,
+                // }}
                 style={{ paddingLeft: "10%" }}
               >
                 - Market Cap of the {coinAllInfo2.id} is &nbsp;

@@ -32,17 +32,16 @@ const Header = () => {
 
                 <Link href="https://masoud-naji.netlify.app/" passHref>
                   <NavDropdown.Item>
-                    <a
+                    {/* <a
                       href="https://masoud-naji.netlify.app/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      sx={{
+                      style={{
                         color: "text",
-                        ":hover": { color: "red" },
                       }}
-                    >
-                      React Project
-                    </a>
+                    > */}
+                    React Project
+                    {/* </a> */}
                   </NavDropdown.Item>
                 </Link>
 
@@ -84,6 +83,7 @@ const Header = () => {
                       href="mailto:info@masoudnaji.com?subject=Mail From WebSite&body=..."
                       style={{ width: "100%", display: "block" }}
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Email
                     </a>
@@ -112,6 +112,7 @@ const Header = () => {
                       href="https://www.linkedin.com/in/masoud-naji/"
                       style={{ width: "100%", display: "block" }}
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Linkedin
                     </a>
@@ -142,6 +143,7 @@ const Header = () => {
                       href="https://github.com/masoud-naji"
                       style={{ width: "100%", display: "block" }}
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Github
                     </a>
@@ -175,6 +177,7 @@ const Header = () => {
                       href="https://codesandbox.io/u/masoud-naji"
                       style={{ width: "100%", display: "block" }}
                       target="_blank"
+                      rel="noreferrer"
                     >
                       sandbox
                     </a>
@@ -207,6 +210,7 @@ const Header = () => {
                       href="https://getliner.com/user-profile/2014735"
                       style={{ width: "100%", display: "block" }}
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Weblog
                     </a>

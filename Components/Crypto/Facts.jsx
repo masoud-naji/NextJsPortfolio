@@ -529,7 +529,7 @@ function Crypto_fun_facts({ coins }) {
                 </section>
               </Box>
             </Grid>
-            <table className="userTable" rules="all">
+            <table className="userTable">
               <thead>
                 <tr>
                   <th

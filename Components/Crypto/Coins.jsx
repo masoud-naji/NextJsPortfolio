@@ -242,14 +242,14 @@ function Coins({ coins }) {
             />
           </Box>
           <Box>
-            <div sx={{ minWidth: ["100%", "50%", "fit-content"] }}>
+            <Box sx={{ minWidth: ["100%", "50%", "fit-content"] }}>
               <Pagination
                 itemsCount={foundCoins ? foundCoins.length : 0}
                 pageSize={pageSize}
                 onPageChange={PageChangeHandler}
                 currentPage={currentPage}
               />
-            </div>
+            </Box>
           </Box>
           <Box>
             <section type="text" className="dropdown infobox">
@@ -264,7 +264,10 @@ function Coins({ coins }) {
         </Grid>
 
         <form>
-          <table className="userTable" rules="all">
+          <table
+            className="userTable"
+            style={{ borderCollapse: "collapse", border: "1px solid" }}
+          >
             <thead>
               <tr>
                 <th>image</th>
