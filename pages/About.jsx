@@ -16,7 +16,7 @@ const About = () => {
     "https://docs.google.com/forms/d/e/1FAIpQLScVrRWGMdozZow7oF1y0aGDZQu_lLsgrtN2ZRuxkHkAUsC0HA/viewform?embedded=true";
   const [urlSrc, seturlSrc] = useState(initialURL);
   const ResumeFile =
-    "https://onedrive.live.com/embed?cid=4CA8BFEFFFE61AB8&resid=4CA8BFEFFFE61AB8%21397104&authkey=AA1uxVivZIR3duU&em=2";
+    "https://onedrive.live.com/embed?cid=4CA8BFEFFFE61AB8&resid=4CA8BFEFFFE61AB8%211916951&authkey=AGHVc9ZJi_LepSU&em=2";
 
   const allCertificates = [
     {
@@ -224,7 +224,7 @@ const About = () => {
                 California - Los Angeles
                 <br />
                 <a
-                  href="https://onedrive.live.com/download?cid=4CA8BFEFFFE61AB8&resid=4CA8BFEFFFE61AB8%21397104&authkey=AA1uxVivZIR3duU&em=2"
+                  href="https://onedrive.live.com/embed?cid=4CA8BFEFFFE61AB8&resid=4CA8BFEFFFE61AB8%211916951&authkey=AGHVc9ZJi_LepSU&em=2"
                   download
                 >
                   <br />
